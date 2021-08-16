@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/assets/css/reset.css">
+    <link rel="stylesheet" href="./src/assets/css/index.css">
+</head>
+<body>
+    <div class="app">
+        <div id="cas" class="cas"></div>
+        <div class="tag none">
+            <ul>
+                <li class="planet">
+                    <img src="./src/assets/img/planet.jpg" alt="">
+                </li>
+                <li class="tile">
+                    <img src="./src/assets/img/isometric.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div id="map">
+          <div id="location">
+            <label>LNG</label>
+            <input id="lng" type="number" value="0">
+            <label>LAT</label>
+            <input id="lat" type="number" value="0">
+            <button id="locate">GO</button>
+          </div>
+          <div class="map-wrap">
+            <div id="map_cas" class="map-cas"></div>
+          </div>
+      </div>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>

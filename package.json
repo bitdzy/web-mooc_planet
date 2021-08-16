@@ -1,0 +1,24 @@
+{
+  "name": "web-mooc_planet",
+  "version": "0.0.1",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "http-server . -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Web_MOOC_group2/web-mooc_planet.git"
+  },
+  "author": "group2",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "three": "^0.131.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
