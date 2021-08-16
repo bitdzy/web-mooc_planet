@@ -1,5 +1,5 @@
-import './../node_modules/three/build/three.js';
-import './../node_modules/three/examples/js/controls/OrbitControls.js';
+import '../lib/three/build/three.js';
+import '../lib/three/examples/js/controls/OrbitControls.js';
 import store from './common/store.js';
 import * as constants from './utils/constants.js';
 import Map from './components/Map.js';

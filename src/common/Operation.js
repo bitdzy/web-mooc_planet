@@ -1,4 +1,4 @@
-import * as dat from './../../node_modules/dat.gui/build/dat.gui.module.js';
+import * as dat from './../../lib/dat.gui/build/dat.gui.module.js';
 import store from './store.js';
 import * as constants from './../utils/constants.js';
 import { deepClone } from './../utils/util.js';
